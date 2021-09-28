@@ -1,0 +1,17 @@
+name = "NeuroGraphs"
+uuid = "cb877f38-d575-4215-9643-6528cae5696a"
+authors = ["Zachary P. Christensen <zchristensen7@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+Metadata = "4fb893c1-3164-4f58-823a-cb4c64eabb4f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
