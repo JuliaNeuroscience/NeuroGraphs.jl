@@ -1,14 +1,10 @@
 module NeuroGraphs
 
-using Base: @propagate_inbounds, OneTo
-using LightGraphs
-using Metadata
-using Metadata: NoMetadata, no_metadata
+using ArrayInterface
 
-include("dynamic_count.jl")
-include("adjedge.jl")
-include("adjmap.jl")
-include("strength.jl")
-include("thresholds.jl")
+export AdjMap, AdjDiMap, WAdjMap, WAdjDiMap
+
+include("AdjacencyGraphs/AdjacencyGraphs.jl")
+using .AdjacencyGraphs
 
 end
